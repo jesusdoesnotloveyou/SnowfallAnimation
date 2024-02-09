@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Kozlovsky Artyom 8K01 Lab5</string>
+    <string name="button_add">Сложить два числа</string>
+    <string name="button_multiply">Перемножить два числа</string>
+    <string name="button_divide">Разделить</string>
+    <string name="button_subtract">Вычесть</string>
+    <string name="edit_hint">Введите число</string>
+    <string name="operation_result">Результат операции: %1$f</string>
+    <string name="result_no">Здесь будет результат...</string>
+
+    <string name="button_addtextview">Добавить View</string>
+
+    <string name="statistics">Correct: %1$d from %2$d</string>
+    <string name="answer">Answer</string>
+    <string name="equation">Equation: %1$s</string>
+    <string name="brackets">(%1$d)</string>
+
+    <string name="repository_name">Repository name</string>
+    <string name="count_of_results">%1$d</string>
+</resources>

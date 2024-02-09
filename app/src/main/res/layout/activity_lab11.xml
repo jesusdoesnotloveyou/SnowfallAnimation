@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change season"
+        android:onClick="buttonChangeSeason"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        android:onClick="buttonShare"/-->
+
+    <com.jdnly.androidlabs.lab11.DrawSurface
+        android:id="@+id/draw_tree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

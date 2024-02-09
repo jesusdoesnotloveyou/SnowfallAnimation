@@ -1,4 +1,6 @@
 /build
-/src
+src/androidTest
+src/test
+
+# project files themself
 !/src/main/res
-!/src/main/java/*/lab11

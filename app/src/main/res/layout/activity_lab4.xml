@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textColor="@color/black"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/equation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/app_name"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/counter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="24sp"/>
+    <Button
+        android:id="@+id/answer"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:onClick="onAnswerButtonClicked"
+        android:text="@string/answer"
+        android:textSize="24sp"/>
+</LinearLayout>
